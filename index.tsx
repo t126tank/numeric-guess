@@ -7,8 +7,8 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const App = () => {
   const [targetNum, setTargetNum] = useState<string>('3.1415');
-  const [intA, setIntA] = useState<string>('1');
-  const [intB, setIntB] = useState<string>('10');
+  const [intA, setIntA] = useState<string>('47000');
+  const [intB, setIntB] = useState<string>('53000');
   const [loading, setLoading] = useState<boolean>(false);
   const [result, setResult] = useState<{
     math: any;
