@@ -1,0 +1,5 @@
+{
+  "description": "A high-end numerical analysis dashboard using Gemini to find patterns between user-defined values and bounds.",
+  "requestFramePermissions": [],
+  "name": "Synergy Engine"
+}
